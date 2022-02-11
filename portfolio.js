@@ -1,0 +1,167 @@
+import emoji from "react-easy-emoji";
+
+export const greetings = {
+  name: "Rahul Konda",
+  title: "Hi all, I'm Rahul",
+  description:
+    "A passionate Full Stack Web Developer having an experience of building Web applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks.",
+  resumeLink:
+    "https://drive.google.com/file/d/1is7J9mBrD5HrYib73JqveimwH74FVYrP/view?usp=sharing",
+};
+
+export const openSource = {
+	githubUserName: "rahulk612",
+};
+
+export const contact = {};
+
+export const socialLinks = {
+  facebook: "https://www.facebook.com/rahulkonda8149/",
+  instagram: "https://www.instagram.com/rahukonda612/",
+  twitter: "https://twitter.com/iamrahulkonda",
+  github: "https://github.com/rahulk612",
+  linkedin: "https://www.linkedin.com/in/rahul-konda-60a167203/",
+  email: "mailto:rahulkonda612@gmail.com",
+};
+
+export const skillsSection = {
+  title: "What I do",
+  subTitle: "A FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  skills: [
+    emoji(
+      "⚡ Develop highly interactive Front end / User Interfaces for your web applications"
+    ),
+  ],
+
+  softwareSkills: [
+    {
+      skillName: "html-5",
+      fontAwesomeClassname: "vscode-icons:file-type-html",
+    },
+    {
+      skillName: "css3",
+      fontAwesomeClassname: "vscode-icons:file-type-css",
+    },
+    {
+      skillName: "JavaScript",
+      fontAwesomeClassname: "logos:javascript",
+    },
+    {
+      skillName: "reactjs",
+      fontAwesomeClassname: "vscode-icons:file-type-reactjs",
+    },
+    {
+      skillName: "nodejs",
+      fontAwesomeClassname: "logos:nodejs-icon",
+    },
+    {
+      skillName: "npm",
+      fontAwesomeClassname: "vscode-icons:file-type-npm",
+    },
+    {
+      skillName: "mongoDB",
+      fontAwesomeClassname: "vscode-icons:file-type-mongo",
+    },
+    {
+      skillName: "aws",
+      fontAwesomeClassname: "logos:aws",
+    },
+    {
+      skillName: "git",
+      fontAwesomeClassname: "logos:git-icon",
+    },
+
+    {
+      skillName: "expressjs",
+      fontAwesomeClassname: "logos:express",
+    },
+    {
+      skillName: "redux",
+      fontAwesomeClassname: "logos:redux",
+    },
+  ],
+};
+export const SkillBars = [
+	{
+		Stack: "Frontend/Design", //Insert stack or technology you have experience in
+		progressPercentage: "70", //Insert relative proficiency in percentage
+	},
+	{
+		Stack: "Backend",
+		progressPercentage: "80",
+	},
+	{
+		Stack: "Programming",
+		progressPercentage: "60",
+	},
+];
+
+export const educationInfo = [
+  {
+    schoolName:
+      "Dr. Babasaheb Ambedkar Technological University, Lonere, Maharashtra",
+    subHeader: "B-Tech in Electronics & Telecommnication",
+    duration: "September 2018 - April 2021",
+  },
+  {
+    schoolName: "Masai School, Koramangala, Bengaluru, Karnataka",
+    subHeader: "Full Stack Web Development Course",
+    duration: "September 2021 - April 2022",
+  },
+];
+
+// export const experience = [
+// 	{
+// 		role: "Software Engineer",
+// 		company: "Google",
+// 		companylogo: "/img/icons/common/google.svg",
+// 		date: "June 2018 – Present",
+// 		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+// 		descBullets: [
+// 			"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
+// 			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+// 		],
+// 	},
+// 	{
+// 		role: "Front-End Developer",
+// 		company: "Github",
+// 		companylogo: "/img/icons/common/github.svg",
+// 		date: "May 2017 – May 2018",
+// 		desc: "Lorem ipsum dolor sit amet, consefdctetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+// 	},
+// 	{
+// 		role: "Software Engineer Intern",
+// 		company: "Airbnb",
+// 		companylogo: "/img/icons/common/airbnbLogo.png",
+// 		date: "Jan 2015 – Sep 2015",
+// 		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+// 	},
+// ];
+
+export const projects = [
+  {
+    name: "Internshala.com",
+    desc: "Internshala is India's no.1 internship and training platform with 40000+ paid internships in Engineering, MBA, media, law, arts, and other streams",
+    link: "http://sampleclone-env.eba-9dmzyuuw.us-west-2.elasticbeanstalk.com/",
+    github: "https://github.com/Rahulk612/Internshala.com",
+  },
+  {
+    name: "Desertcart.in",
+    desc: "Desertcart is a popular online clothing store, online furniture store, and the best online shopping site in India",
+    link: "https://rahulk612.github.io/desertCart/",
+    github: "https://github.com/kavya-2021/DesertCart_Clone",
+  },
+];
+
+// export const feedbacks = [
+// 	{
+// 		name: "Hassan Mehmood",
+// 		feedback:
+// 			"We have been very happy with our new website! It looks professional and very easy to navigate. Our experience with the customer service at Hanzla tauqeer has been great. They handle things very efficiently and are available for any questions we have. They also keep us updated on daily reports so we know how our site is doing. I would recommend that u have choose hanzla web developer services for u.",
+// 	},
+// 	{
+// 		name: "Maheen Altaf",
+// 		feedback:
+// 			"the website is very nice, everything was perfectly made as i need. it just loads in moments, without giving u the chance to wait. the quality is also very amazing. i am using it without any problem. great job",
+// 	},
+// ];
