@@ -5,7 +5,7 @@ import { Card, CardBody, Col, Button } from "reactstrap";
 import { Fade } from "react-reveal";
 
 const ProjectsCard = ({ data }) => {
-	return (
+  return (
     <Col lg="6">
       <Fade left duration={1000} distance="40px">
         <Card className="shadow-lg--hover shadow mt-4">
@@ -13,18 +13,18 @@ const ProjectsCard = ({ data }) => {
             <div className="d-flex px-3">
               <div className="pl-4">
                 <img className="HeroImageRahul" src={data.heroImag} alt="" />
-                <h3>{data.name}</h3>
+                <h4>{data.name}</h4>
                 <p className="description mt-3">{data.desc}</p>
-				<div className="fafafaIcons">
-                {data.techStacks.map((skill) => {
-                  return (
-                    <h5 key={1} className="reactIcons">
-                      {skill}
-                    </h5>
-                  );
-                })}
-				</div>
-				<br />
+                <div className="fafafaIcons">
+                  {data.techStacks.map((skill) => {
+                    return (
+                      <h5 key={1} className="reactIcons">
+                        {skill}
+                      </h5>
+                    );
+                  })}
+                </div>
+                <br />
                 {data.github ? (
                   <Button
                     className="btn-icon"
