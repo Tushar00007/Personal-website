@@ -18,9 +18,9 @@ const ProjectsCard = ({ data }) => {
 				<div className="fafafaIcons">
                 {data.techStacks.map((skill) => {
                   return (
-                    <h4 key={1} className="reactIcons">
+                    <h5 key={1} className="reactIcons">
                       {skill}
-                    </h4>
+                    </h5>
                   );
                 })}
 				</div>
