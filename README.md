@@ -5,7 +5,7 @@
 
 <p align="center">
   <kbd>
-    <img src="./Videos/Internshala.mp4"></img>
+    <video src="./Videos/Internshala.mp4"></video>
   </kbd>
 </p>
 
