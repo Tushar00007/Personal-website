@@ -10,7 +10,7 @@ const SocialLinks = () => {
       <Button
         className="btn-icon-only rounded-circle"
         color="twitter"
-        href={socialLinks.twitter}
+        href={socialLinks.email}
         target="_blank"
         rel="noopener"
         aria-label="Twitter"
@@ -24,7 +24,7 @@ const SocialLinks = () => {
         color="twitter"
         rel="noopener"
         aria-label="email"
-        href={socialLinks.email}
+        href={socialLinks.twitter}
         target="_blank"
       >
         <span className="btn-inner--icon">
@@ -34,7 +34,7 @@ const SocialLinks = () => {
       <Button
         className="btn-icon-only rounded-circle ml-1"
         color="facebook"
-        href={socialLinks.facebook}
+        href={socialLinks.linkedin}
         target="_blank"
         rel="noopener"
         aria-label="Facebook"
@@ -47,7 +47,7 @@ const SocialLinks = () => {
       <Button
         className="btn-icon-only rounded-circle ml-1"
         color="instagram"
-        href={socialLinks.instagram}
+        href={socialLinks.github}
         target="_blank"
         rel="noopener"
         aria-label="Instagram"
@@ -59,7 +59,7 @@ const SocialLinks = () => {
       <Button
         className="btn-icon-only rounded-circle ml-1"
         color="github"
-        href={socialLinks.github}
+        href={socialLinks.instagram}
         rel="noopener"
         aria-label="Github"
         target="_blank"
@@ -73,7 +73,7 @@ const SocialLinks = () => {
         color="twitter"
         rel="noopener"
         aria-label="Linkedin"
-        href={socialLinks.linkedin}
+        href={socialLinks.facebook}
         target="_blank"
       >
         <span className="btn-inner--icon">
