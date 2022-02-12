@@ -8559,6 +8559,29 @@ button.bg-darker:focus {
 	padding-bottom: 1.5rem !important;
 }
 
+
+.HeroImageRahul{
+	height: 43%;
+	width: 100%;
+	margin-bottom: 5px;
+}
+
+
+.fafafaIcons{
+	display: flex;
+	height: 30px;
+	margin-top: -10px;
+	margin-bottom: -5px;
+	gap: 8px;
+}
+
+.fafafaIcons > h4:hover{
+	color:#00dea2;
+	transform: scale(1.5);
+	transition: all 0.5s;
+	cursor: pointer;
+}
+
 .pl-4,
 .px-4 {
 	padding-left: 1.5rem !important;
