@@ -9,7 +9,7 @@ const SocialLinks = () => {
     <div className="btn-wrapper text-lg">
       <Button
         className="btn-icon-only rounded-circle"
-        color="twitter"
+        color="facebook"
         href={socialLinks.email}
         target="_blank"
         rel="noopener"
