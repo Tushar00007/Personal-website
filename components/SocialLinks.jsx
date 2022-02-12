@@ -22,7 +22,7 @@ const SocialLinks = () => {
 
       <Button
         className="btn-icon-only rounded-circle ml-1"
-        color="linkedin"
+        color="facebook"
         href={socialLinks.linkedin}
         target="_blank"
         rel="noopener"
