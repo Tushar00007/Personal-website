@@ -5,7 +5,7 @@
 
 <p align="center">
   <kbd>
-    <img src="https://drive.google.com/file/d/1el426JKMWFGgxzPgrnM7w3e5gNr20mUG/view?usp=sharing"></img>
+    <img src="./Videos/Internshala.mp4"></img>
   </kbd>
 </p>
 
