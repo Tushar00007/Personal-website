@@ -8575,6 +8575,11 @@ button.bg-darker:focus {
 	gap: 8px;
 }
 
+
+.projectName{
+	margin-bottom: -15px;
+}
+
 .fafafaIcons > h4:hover{
 	color:#00dea2;
 	transform: scale(1.5);
@@ -16319,6 +16324,7 @@ a.btn-icon-only {
 .profile-page .card-profile .card-profile-stats > div .description {
 	font-size: 0.875rem;
 	color: #adb5bd;
+	padding: 0;
 }
 .profile-page .card-profile .card-profile-actions {
 	padding: 0.875rem;

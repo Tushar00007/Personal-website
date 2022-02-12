@@ -13,7 +13,7 @@ const ProjectsCard = ({ data }) => {
             <div className="d-flex px-3">
               <div className="pl-4">
                 <img className="HeroImageRahul" src={data.heroImag} alt="" />
-                <h4>{data.name}</h4>
+                <h4 className="projectName">{data.name}</h4>
                 <p className="description mt-3">{data.desc}</p>
                 <div className="fafafaIcons">
                   {data.techStacks.map((skill) => {
