@@ -8580,7 +8580,7 @@ button.bg-darker:focus {
 	margin-bottom: -15px;
 }
 
-.fafafaIcons > h4:hover{
+.fafafaIcons > h5:hover{
 	color:#00dea2;
 	transform: scale(1.5);
 	transition: all 0.5s;
