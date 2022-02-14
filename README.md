@@ -5,7 +5,7 @@
 
 <p align="center">
   <kbd>
-    <img src="https://drive.google.com/file/d/1el426JKMWFGgxzPgrnM7w3e5gNr20mUG/view?usp=sharing"></img>
+    <img src="https://scontent.fpnq7-1.fna.fbcdn.net/v/t39.30808-6/273823918_3115228908740025_6286408777614905941_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=0debeb&_nc_ohc=xV2X6bsPdbQAX-cMeTN&tn=C6zlu09bDp3mWEIW&_nc_ht=scontent.fpnq7-1.fna&oh=00_AT8HCmQZJ0bsZU4dGWtaBmkkawotpZMs9K1nArHXpZfinw&oe=620BE703"></img>
   </kbd>
 </p>
 
