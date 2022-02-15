@@ -8571,14 +8571,14 @@ button.bg-darker:focus {
 .fafafaIcons{
 	display: flex;
 	height: 30px;
-	margin-top: -10px;
-	margin-bottom: -5px;
+	/* margin-top: -10px;
+	margin-bottom: -5px; */
 	gap: 8px;
 }
 
 
 .projectName{
-	margin-bottom: -15px;
+	/* margin-bottom: -15px; */
 }
 
 .fafafaIcons > h5:hover{
