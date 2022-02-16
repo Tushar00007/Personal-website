@@ -8577,10 +8577,6 @@ button.bg-darker:focus {
 }
 
 
-.projectName{
-	/* margin-bottom: -15px; */
-}
-
 .fafafaIcons > h5:hover{
 	color:#00dea2;
 	transform: scale(1.5);

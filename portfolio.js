@@ -7,7 +7,7 @@ export const greetings = {
   name: "Rahul Konda",
   title: "Hi all, I'm Rahul",
   description:
-    "A passionate Full Stack Web Developer having an experience of building Web applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks.",
+    "An aspiring Full Stack Web Developer having an experience of building Web applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks.",
   resumeLink:
     "https://drive.google.com/file/d/1is7J9mBrD5HrYib73JqveimwH74FVYrP/view?usp=sharing",
 };
@@ -29,7 +29,7 @@ export const socialLinks = {
 
 export const skillsSection = {
   title: "What I do",
-  subTitle: "A FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "A Full Stack Developer Who Wants To Explore Every Tech Stack",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web applications"
@@ -39,48 +39,52 @@ export const skillsSection = {
   softwareSkills: [
     {
       skillName: "html-5",
-      fontAwesomeClassname: "vscode-icons:file-type-html",
+      fontAwesomeClassname: "cib:html5",
     },
     {
       skillName: "css3",
-      fontAwesomeClassname: "vscode-icons:file-type-css",
+      fontAwesomeClassname: "cib:css3-shiled",
     },
     {
       skillName: "JavaScript",
-      fontAwesomeClassname: "logos:javascript",
+      fontAwesomeClassname: "cib:javascript",
     },
     {
       skillName: "reactjs",
-      fontAwesomeClassname: "vscode-icons:file-type-reactjs",
+      fontAwesomeClassname: "cib:react",
     },
     {
       skillName: "nodejs",
-      fontAwesomeClassname: "logos:nodejs-icon",
+      fontAwesomeClassname: "la:node-js",
     },
     {
       skillName: "npm",
-      fontAwesomeClassname: "vscode-icons:file-type-npm",
+      fontAwesomeClassname: "cib:npm",
     },
     {
       skillName: "mongoDB",
-      fontAwesomeClassname: "vscode-icons:file-type-mongo",
+      fontAwesomeClassname: "cib:mongodb",
     },
     {
       skillName: "aws",
-      fontAwesomeClassname: "logos:aws",
+      fontAwesomeClassname: "cib:amazon-aws",
     },
     {
       skillName: "git",
-      fontAwesomeClassname: "logos:git-icon",
+      fontAwesomeClassname: "cib:git",
     },
 
     {
       skillName: "expressjs",
-      fontAwesomeClassname: "logos:express",
+      fontAwesomeClassname: "simple-icons:express",
     },
     {
       skillName: "redux",
-      fontAwesomeClassname: "logos:redux",
+      fontAwesomeClassname: "cib:redux",
+    },
+    {
+      skillName: "redis",
+      fontAwesomeClassname: "cib:redis",
     },
   ],
 };
