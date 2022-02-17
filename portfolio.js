@@ -147,25 +147,23 @@ export const educationInfo = [
 
 export const projects = [
   {
-    heroImag:
-      "https://scontent.fpnq7-1.fna.fbcdn.net/v/t39.30808-6/p640x640/273872374_3115231302073119_1451091213420027275_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=0debeb&_nc_ohc=baKf65lhyoQAX8xtUIm&_nc_ht=scontent.fpnq7-1.fna&oh=00_AT-x3ZMEL3uh4HbI7oZQBnMRc6N1Sgu82HRVJJXkWMr1Ww&oe=620C4ACE",
+    heroImag: "https://i.imgur.com/RHILCys.jpg?1",
     name: "Internshala.com",
     desc: "Internshala is India's no.1 internship and training platform with 40000+ paid internships in Engineering, MBA, media, law, arts, and other streams",
     link: "http://sampleclone-env.eba-9dmzyuuw.us-west-2.elasticbeanstalk.com/",
     github: "https://github.com/Rahulk612/Internshala.com",
     techStacks: [
-      <DiHtml5/>,
-      <DiCss3/>,
-      <DiJavascript1/>,
-      <DiNodejsSmall/>,
-      <SiExpress/>,
-      <SiMongodb/>,
-      <FaAws/>,
+      <DiHtml5 />,
+      <DiCss3 />,
+      <DiJavascript1 />,
+      <DiNodejsSmall />,
+      <SiExpress />,
+      <SiMongodb />,
+      <FaAws />,
     ],
   },
   {
-    heroImag:
-      "https://scontent.fpnq7-4.fna.fbcdn.net/v/t39.30808-6/p640x640/273896973_3115231312073118_8951203589850041709_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=0debeb&_nc_ohc=74VuW6jIssoAX9u9bJ_&_nc_ht=scontent.fpnq7-4.fna&oh=00_AT9uTSYUcFp7wOmKtezjb-6zf3f2iDWm85X3KtnNB6aZeg&oe=620D2185",
+    heroImag: "https://i.imgur.com/bIKCOQ7.png",
     name: "Desertcart.in",
     desc: "Desertcart is a popular online clothing store, online furniture store, and the best online shopping site in India",
     link: "https://rahulk612.github.io/desertCart/",

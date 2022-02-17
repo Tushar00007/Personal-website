@@ -8564,15 +8564,14 @@ button.bg-darker:focus {
 .HeroImageRahul{
 	height: 43%;
 	width: 100%;
-	margin-bottom: 5px;
 }
 
 
 .fafafaIcons{
 	display: flex;
 	height: 30px;
-	/* margin-top: -10px;
-	margin-bottom: -5px; */
+	/* margin-top: -10px;*/
+	margin-bottom: -10px; 
 	gap: 8px;
 }
 
