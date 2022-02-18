@@ -28,7 +28,6 @@ const GithubProfileCard = ({ prof }) => {
               </p>
               <p className="text-white mt-3">{prof.bio}</p>
               <p>
-                <SiGmail style={{ color: "midnightblue" }} />
                 <a
                   href="mailto:rahulkonda612@gmail.com"
                   className="text-white mt-3"
@@ -36,7 +35,6 @@ const GithubProfileCard = ({ prof }) => {
                 </a>
               </p>
               <p >
-                <MdCall style={{ color: "midnightblue" }} />
                 <a href="callto:9834390308" className="text-white mt-3">   9834390308
                 </a>
               </p>
