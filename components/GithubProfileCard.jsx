@@ -3,11 +3,12 @@ import React from "react";
 import { Card, Col, Row, Container } from "reactstrap";
 import {  MdCall } from "react-icons/md";
 import { SiGmail } from "react-icons/si";
-import SocialLinks from "../components/SocialLinks";
+import {SocialLinksForGithubPRofileCard} from "../components/SocialLinks";
 import { Button } from "reactstrap";
 import Image from "next/image";
 
 const GithubProfileCard = ({ prof }) => {
+  
 	return (
     <Card className="section-lg bg-gradient-info shadow-lg border-0">
       <Container className="">
@@ -80,14 +81,14 @@ const GithubProfileCard = ({ prof }) => {
                     rel="noopener"
                     aria-label="phone"
                     onClick={() => {
-                      window.open("callto:9834390308", "_blank");
+                      window.open("tel:+919834390308", "_blank");
                     }}
                   >
                     <span className="btn-inner--icon">
                       <i className="fa fa-phone" />
                     </span>
                   </button>
-                  <a className="text-white" href="callto:9834390308">
+                  <a className="text-white" href="tel:+919834390308">
                     9834390308
                   </a>
                 </div>
@@ -97,7 +98,7 @@ const GithubProfileCard = ({ prof }) => {
 								<i className="ni ni-pin-3 text-info mr-2" />
 								{prof.location}
 							</div> */}
-              <SocialLinks />
+              <SocialLinksForGithubPRofileCard />
             </Col>
           </Row>
         </div>
