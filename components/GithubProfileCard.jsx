@@ -4,6 +4,7 @@ import { Card, Col, Row, Container } from "reactstrap";
 import {  MdCall } from "react-icons/md";
 import { SiGmail } from "react-icons/si";
 import SocialLinks from "../components/SocialLinks";
+import { Button } from "reactstrap";
 import Image from "next/image";
 
 const GithubProfileCard = ({ prof }) => {
@@ -15,7 +16,7 @@ const GithubProfileCard = ({ prof }) => {
             <Col className="order-lg-2" lg="4">
               <img
                 src={prof.avatar_url}
-                style={{ width: "280px" }}
+                style={{ width: "250px" }}
                 alt=""
                 className="rounded-circle img-center img-fluid shadow shadow-lg--hover mb-4"
               />
@@ -27,17 +28,71 @@ const GithubProfileCard = ({ prof }) => {
                 All
               </p>
               <p className="text-white mt-3">{prof.bio}</p>
-              <p>
-                <a
-                  href="mailto:rahulkonda612@gmail.com"
-                  className="text-white mt-3"
-                >   Rahulkonda612@gmail.com
-                </a>
-              </p>
-              <p >
-                <a href="callto:9834390308" className="text-white mt-3">   9834390308
-                </a>
-              </p>
+              <div
+                style={{
+                  margin: "30px 0px",
+                }}
+              >
+                <div
+                  style={{
+                    height: "40px",
+                    display: "flex",
+                    alignItems: "center",
+                    gap: "20px",
+                  }}
+                >
+                  <button
+                    className="btn-icon-only rounded-circle facebook"
+                    color="facebook"
+                    target="_blank"
+                    rel="noopener"
+                    aria-label="email"
+                    onClick={() => {
+                      window.open("mailto:rahulkonda612@gmail.com", "_blank");
+                    }}
+                  >
+                    <span className="btn-inner--icon">
+                      <i className="fa fa-envelope" />
+                    </span>
+                  </button>
+                  <a
+                    className="text-white"
+                    href="mailto:rahulkonda612@gmail.com"
+                  >
+                    rahulkonda612@gmail.com
+                  </a>
+                </div>
+
+                <div
+                  style={{
+                    height: "40px",
+                    display: "flex",
+                    alignItems: "center",
+                    gap: "20px",
+                    marginTop: "30px",
+                  }}
+                >
+                  <button
+                    className="btn-icon-only rounded-circle whatsapp"
+                    color="whatsapp"
+                    // href={socialLinks.email}
+                    target="_blank"
+                    rel="noopener"
+                    aria-label="phone"
+                    onClick={() => {
+                      window.open("callto:9834390308", "_blank");
+                    }}
+                  >
+                    <span className="btn-inner--icon">
+                      <i className="fa fa-phone" />
+                    </span>
+                  </button>
+                  <a className="text-white" href="callto:9834390308">
+                    9834390308
+                  </a>
+                </div>
+              </div>
+
               {/* <div className="my-3 icon-shape bg-gradient-white shadow rounded text-info">
 								<i className="ni ni-pin-3 text-info mr-2" />
 								{prof.location}
