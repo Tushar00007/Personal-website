@@ -1,6 +1,20 @@
 import emoji from "react-easy-emoji";
-import { DiHtml5, DiCss3, DiJavascript1, DiNodejsSmall } from "react-icons/di";
-import { SiExpress, SiMongodb, SiReact, SiRedux } from "react-icons/si";
+import {
+  DiHtml5,
+  DiCss3,
+  DiJavascript1,
+  DiNodejsSmall,
+  DiReact,
+} from "react-icons/di";
+import {
+  SiExpress,
+  SiMongodb,
+  SiReact,
+  SiRedux,
+  SiChakraui,
+  SiHeroku,
+  SiNetlify,
+} from "react-icons/si";
 import {FaAws} from "react-icons/fa"
 
 export const greetings = {
@@ -160,6 +174,25 @@ export const projects = [
       <SiExpress />,
       <SiMongodb />,
       <FaAws />,
+    ],
+  },
+  {
+    heroImag: "https://i.imgur.com/x5q98KZ.png",
+    name: "Pepperfry.com",
+    desc: "Online Furniture Shopping in India: Shop from our online store in India for Furniture, Home Decor, Lamps, Furnishings, Homeware and more at best prices.",
+    link: "https://pepperfry-cloned.netlify.app/",
+    github: "https://github.com/Rahulk612/Pepperfry_Clone",
+    techStacks: [
+      <DiReact />,
+      <SiChakraui />,
+      <DiHtml5 />,
+      <DiCss3 />,
+      <DiJavascript1 />,
+      <DiNodejsSmall />,
+      <SiExpress />,
+      <SiMongodb />,
+      <SiNetlify/>,
+      <SiHeroku />,
     ],
   },
   {
