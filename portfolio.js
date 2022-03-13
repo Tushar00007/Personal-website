@@ -9,12 +9,10 @@ import {
 import {
   SiExpress,
   SiMongodb,
-  SiReact,
   SiRedux,
   SiChakraui,
   SiHeroku,
   SiNetlify,
-  SiRedux,
 } from "react-icons/si";
 import {FaAws} from "react-icons/fa"
 
