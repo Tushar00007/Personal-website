@@ -14,6 +14,7 @@ import {
   SiChakraui,
   SiHeroku,
   SiNetlify,
+  SiRedux,
 } from "react-icons/si";
 import {FaAws} from "react-icons/fa"
 
@@ -185,6 +186,7 @@ export const projects = [
     techStacks: [
       <DiReact />,
       <DiNodejsSmall />,
+      <SiRedux/>,
       <SiMongodb />,
       <SiExpress />,
       <DiHtml5 />,
