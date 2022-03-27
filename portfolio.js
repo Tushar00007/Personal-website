@@ -22,7 +22,7 @@ export const greetings = {
   description:
     "An aspiring Full Stack Web Developer having an experience of building Web applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks.",
   resumeLink:
-    "https://drive.google.com/file/d/1is7J9mBrD5HrYib73JqveimwH74FVYrP/view?usp=sharing",
+    "https://drive.google.com/file/d/1IZWjRa_DVhf_Nf7q4sKmAloCRDvM1NHM/view?usp=sharing",
 };
 
 export const openSource = {
