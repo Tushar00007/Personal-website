@@ -19,14 +19,14 @@ export default function Home({ githubProfileData }) {
 		<div>
 			<SEO
 				data={{
-					title: "Rahul Konda",
+					title: "Tushar Sonavane",
 					description:
 						"A passionate Full Stack Web Developer.",
 					image: "../public/img/profile/rahul.png",
 					url: "https://developer-portfolio-1hanzla100.vercel.app",
 					keywords: [
-						"Rahul",
-						"Rahul Konda",
+						"Tushar",
+						"Tushar Sonavane",
 						"rahulk612",
 						"rahulk612",
 						"Portfolio",

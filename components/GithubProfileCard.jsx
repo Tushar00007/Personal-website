@@ -49,7 +49,7 @@ const GithubProfileCard = ({ prof }) => {
                     rel="noopener"
                     aria-label="email"
                     onClick={() => {
-                      window.open("mailto:rahulkonda612@gmail.com", "_blank");
+                      window.open("mailto:tusharsonavane@gmail.com", "_blank");
                     }}
                   >
                     <span className="btn-inner--icon">
@@ -58,9 +58,9 @@ const GithubProfileCard = ({ prof }) => {
                   </button>
                   <a
                     className="text-white"
-                    href="mailto:rahulkonda612@gmail.com"
+                    href="mailto:tusharsonavane21@gmail.com"
                   >
-                    rahulkonda612@gmail.com
+                    tusharsonavane21@gmail.com
                   </a>
                 </div>
 
@@ -81,15 +81,15 @@ const GithubProfileCard = ({ prof }) => {
                     rel="noopener"
                     aria-label="phone"
                     onClick={() => {
-                      window.open("tel:+919834390308", "_blank");
+                      window.open("tel:+919309146379", "_blank");
                     }}
                   >
                     <span className="btn-inner--icon">
                       <i className="fa fa-phone" />
                     </span>
                   </button>
-                  <a className="text-white" href="tel:+919834390308">
-                    9834390308
+                  <a className="text-white" href="tel:+919309146379">
+                    9309146379
                   </a>
                 </div>
               </div>

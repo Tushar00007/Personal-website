@@ -17,27 +17,27 @@ import {
 import {FaAws} from "react-icons/fa"
 
 export const greetings = {
-  name: "Rahul Konda",
-  title: "Hi all, I'm Rahul",
+  name: "Tushar Sonavane",
+  title: "Hi all, I'm Tushar",
   description:
-    "An aspiring Full Stack Web Developer having an experience of building Web applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks.",
+    "An  aspiring Full Stack Web Developer having an experience of building Web applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks.",
   resumeLink:
-    "https://drive.google.com/file/d/1IZWjRa_DVhf_Nf7q4sKmAloCRDvM1NHM/view?usp=sharing",
+    "a",
 };
 
 export const openSource = {
-	githubUserName: "rahulk612",
+	githubUserName: "Tushar00007",
 };
 
 export const contact = {};
 
 export const socialLinks = {
-  facebook: "https://www.facebook.com/rahulkonda8149/",
-  instagram: "https://www.instagram.com/rahukonda612/",
-  twitter: "https://twitter.com/iamrahulkonda",
-  github: "https://github.com/rahulk612",
-  linkedin: "https://www.linkedin.com/in/rahul-konda-60a167203/",
-  email: "mailto:rahulkonda612@gmail.com",
+  facebook: "a",
+  instagram: "https://www.instagram.com/stylish_tushar/?igshid=NGExMmI2YTkyZg%3D%3D",
+  twitter: "https://twitter.com/TusharSona55993",
+  github: "https://github.com/Tushar00007",
+  linkedin: "https://www.linkedin.com/in/tushar-sonavane-514a9b205/",
+  email: "mailto:tusharsonavane21@gmail.com",
 };
 
 export const skillsSection = {
@@ -121,12 +121,12 @@ export const educationInfo = [
     schoolName:
       "Dr. Babasaheb Ambedkar Technological University, Lonere, Maharashtra",
     subHeader: "B-Tech in Electronics & Telecommnication",
-    duration: "September 2018 - April 2021",
+    duration: "September 2019 - April 2022",
   },
   {
-    schoolName: "Masai School, Koramangala, Bengaluru, Karnataka",
+    schoolName: "Almabetter Bengaluru, Karnataka",
     subHeader: "Full Stack Web Development Course",
-    duration: "September 2021 - April 2022",
+    duration: "November 2022 - April 2023",
   },
 ];
 
@@ -160,11 +160,11 @@ export const educationInfo = [
 
 export const projects = [
   {
-    heroImag: "https://i.imgur.com/RHILCys.jpg?1",
-    name: "Internshala.com",
-    desc: "Internshala is India's no.1 internship and training platform with 40000+ paid internships in Engineering, MBA, media, law, arts, and other streams",
-    link: "http://sampleclone-env.eba-9dmzyuuw.us-west-2.elasticbeanstalk.com/",
-    github: "https://github.com/Rahulk612/Internshala.com",
+    heroImag: "https://i.imgur.com/EbQBKEH.png",
+    name: "Bookmyshow",
+    desc: "This is a backend capston project given by almabetter in this project we created bookmyshow website this project have vary simple UI and this website is very easy to use ( userfriendly ) and also a work in any devices ( Responsiveness )",
+    link: "https://bookmyshows-frontend.netlify.app/",
+    github: "https://github.com/Tushar00007/Bookmyshow-Backend-",
     techStacks: [
       <DiHtml5 />,
       <DiCss3 />,
@@ -176,33 +176,22 @@ export const projects = [
     ],
   },
   {
-    heroImag: "https://i.imgur.com/x5q98KZ.png",
-    name: "Pepperfry.com",
-    desc: "Online Furniture Shopping in India: Shop from our online store in India for Furniture, Home Decor, Lamps, Furnishings, Homeware and more at best prices.",
-    link: "https://pepperfry-cloned.netlify.app/",
-    github: "https://github.com/Rahulk612/Pepperfry_Clone",
+    heroImag: "https://i.imgur.com/FXS48HM.png",
+    name: "Flashcard Generator",
+    desc: "This is a Flashcard Generator frontend capston project that Almabetter has provided.",
+    link: "https://genuine-valkyrie-ca0c49.netlify.app/",
+    github: "https://github.com/Tushar00007/flashcard",
     techStacks: [
       <DiReact />,
-      <DiNodejsSmall />,
       <SiRedux/>,
-      <SiMongodb />,
-      <SiExpress />,
       <DiHtml5 />,
       <DiCss3 />,
       <DiJavascript1 />,
-      <SiChakraui />,
-      <SiNetlify/>,
-      <SiHeroku />,
+       <SiNetlify/>
+      
     ],
-  },
-  {
-    heroImag: "https://i.imgur.com/bIKCOQ7.png",
-    name: "Desertcart.in",
-    desc: "Desertcart is a popular online clothing store, online furniture store, and the best online shopping site in India",
-    link: "https://rahulk612.github.io/desertCart/",
-    github: "https://github.com/kavya-2021/DesertCart_Clone",
-    techStacks: [<DiHtml5 />, <DiCss3 />, <DiJavascript1 />],
-  },
+  }
+  
 ];
 
 // export const feedbacks = [
